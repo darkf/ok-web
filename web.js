@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 var fs = require('fs');
 var http = require('http');
 var url = require('url');
 var path = require('path');
 var qs = require('querystring');
-var ok = require('./oK');
-var conv = require('./convert');
+var ok = require('ok/oK');
+var conv = require('ok/convert');
 
 var PORT = 8080;
 

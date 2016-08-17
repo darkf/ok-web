@@ -1,0 +1,9 @@
+{ "name": "ok-web"
+, "license" : "MIT"
+, "description": "A platform for serving web applications written in K"
+, "main": "web.js"
+, "scripts": { "start": "node web.js"}
+, "dependencies": {
+    "ok": "git+https://github.com/darkf/ok.git#web-fork"
+  }
+}
